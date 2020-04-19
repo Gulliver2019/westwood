@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/author.css">
 
     <title>Richard Westwood Renovations</title>
-
+    <?php wp_head();?>
   </head>
   <body <?php body_class(); ?>>
     <div class="top-bar"></div>

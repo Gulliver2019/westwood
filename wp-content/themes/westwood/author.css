@@ -62,7 +62,7 @@
     font-weight: 600;
     font-style: normal;
     letter-spacing:4px;
-    padding:0 40px!important;
+    padding:0 77px!important;
 }
 
 .navbar-nav.navbar-center {
@@ -98,7 +98,7 @@
 
 .hero-title h1 {
     margin-bottom:0px;
-    letter-spacing:12px;
+    letter-spacing:12px;git push --set-upstream origin 
     font-size:2em;
     font-weight:700;
     line-height:1;
@@ -110,7 +110,10 @@
 .logo-holder {
     display:flex;
     justify-content: center;
-    padding-top:8em;
+}
+
+.logo-holder img {
+    max-width:75%;
 }
 
 /* Small Logo */
@@ -252,14 +255,39 @@ input, textarea {
 .social a{
     display:inline-block;
     padding:30px 20px 50px 20px;
-}
+}   
 
 
 @media (min-width: 576px) {  }
 
-@media (min-width: 768px) {  }
+@media (min-width: 768px) { 
 
-@media (min-width: 992px) {  }
+.site-title {
+    font-size:1.1em;
+}
+
+.logo-holder img {
+    max-width:45%;
+}
+
+}
+
+@media (min-width: 992px) { 
+    .nav-link {
+        padding: 0 28px!important;
+    }
+    .logo-holder {
+        padding-top:8em;
+    }
+}
 
 
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+    .site-title {
+        font-size:2em;
+    }
+
+    .nav-link {
+        padding: 0 78px!important;
+    }
+ }
