@@ -1,0 +1,263 @@
+.container {
+    max-width:1440px;
+}
+
+
+/* Full Page Background*/
+
+.home {
+  background: url(images/room-comparisons.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Header */
+
+.top-bar {
+    height:4em;
+    background-color: #112E59;
+}
+
+.title-holder {
+    text-align:center;
+}
+
+.site-title {
+    text-align:center;
+    font-family: playfair-display, serif;
+    font-weight: 700;   
+    font-style: normal;
+    color:#112E59;
+    letter-spacing:10px;
+    margin-top:2.5em;
+    border-bottom:solid 3px #00C3E8;
+    display:inline-block;
+    margin:1em auto 1em auto;
+    padding:0 0.75em 0.5em 0.75em;
+}
+
+.site-title a, .site-title a:hover {
+    text-decoration:none;
+    color:#112E59;
+}
+
+/* Nav */
+.navbar {
+    margin-bottom:2em;
+}
+
+.bg-light {
+    background-color:initial!important;
+}
+
+.home .nav-link {
+    color:#112E59!important;
+}
+
+.nav-link {
+    color:#00C3E8!important;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing:4px;
+    padding:0 40px!important;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/* Hero */
+
+.hero {
+    position:relative;
+}
+
+.hero-title {
+    position:absolute;
+    top:50%;
+    left:50%;
+    background:#112E59;
+    width:400px;
+    text-align:center;
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family: playfair-display, serif;
+    font-weight: 700;   
+    font-style: normal;
+    margin-left:-200px;
+    margin-top:-40px;
+    color:white;
+}
+
+.hero-title h1 {
+    margin-bottom:0px;
+    letter-spacing:12px;
+    font-size:2em;
+    font-weight:700;
+    line-height:1;
+}
+
+/* Logo Holder */
+.logo-holder {
+    display:flex;
+    justify-content: center;
+    padding-top:8em;
+}
+
+/* Small Logo */
+.logo-sm div {
+    display:flex;
+    justify-content: center;
+}
+
+.logo-sm img {
+    max-width:250px;
+    padding:3em 0;
+}
+
+/* Content */
+.content {
+    text-align:center;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    line-height:1.75;
+    font-size:1.25em;
+}
+
+.images {
+    padding-bottom:2em;
+}
+
+.accreditation img {
+    max-width:250px;
+}
+
+.accreditation div {
+    display:flex;
+    justify-content: center;
+    padding-bottom:2em;
+}
+
+.quote {
+    text-align:center;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    line-height:1.75;
+    font-size:1.25em;
+}
+
+.person {
+    background-color:#112E59;
+    color:white!important;
+    display:inline-block;
+    padding:0.5em 1em;
+    font-family: playfair-display, serif;
+    letter-spacing: 5px;
+    line-height:1.5;
+
+}
+
+.person-holder {
+    display:flex;
+    justify-content:center;
+    margin-bottom:2em;
+}
+
+/* Contact */
+
+.contact-main {
+    background-color:#cdeff9;
+    padding:2em 0 8em 0;
+} 
+
+label, p, .contact li {
+    color:#112E59!important;
+    font-family: montserrat, sans-serif;
+}
+
+.btn.btn-primary {
+    background-color:#112E59!important;
+    border:none!important;
+}
+
+input, textarea {
+    border:none!important;
+}
+
+.contact-details {
+    list-style:none;
+    padding:0px;
+}
+
+.contact-details span {
+    margin-right:10px;
+    display:inline-block;
+    font-size:2.5em;
+}
+
+.contact-details li {
+    line-height:1.5;
+    margin-bottom:1.5em;
+    display:flex;
+    align-items: center;
+}
+
+.contact-title {
+    text-align:left;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;   
+    font-style: normal;
+    color:#112E59;
+    letter-spacing:10px;
+    margin-top:2.5em;
+    border-bottom:solid 3px #00C3E8;
+    margin:1em auto 2em auto;
+    padding:0 0.75em 0.5em 0;
+    font-size:1.25em;
+}
+
+.contact-secondary {
+    background-color:#112E59;
+    color:white;
+    padding:1em 0;
+    text-align:center;
+}
+
+.contact-secondary p {
+    color:white!important;
+}
+
+.social {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.social img {
+    max-width:50px;
+}
+.social li{
+    display:inline;
+}
+.social a{
+    display:inline-block;
+    padding:30px 20px 50px 20px;
+}
+
+
+@media (min-width: 576px) {  }
+
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
