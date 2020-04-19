@@ -12,3 +12,16 @@ wp-content/cache/
 wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
+wp-admin
+wp-includes
+wp-active.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-links-opml.php
+wp-load.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlpc.php
